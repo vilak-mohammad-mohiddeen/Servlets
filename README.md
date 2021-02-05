@@ -40,3 +40,9 @@
 - this request dispatcher does not tell browser whether response is given by ser1 or ser2
 # sendRedirect :: it will tell browser which is sending response
 res.sendRedirect("ser2");
+<br><form action="abc" method="POST">
+<br>        <input type="text" name="uname"><br>
+<br>       <input type="password" name="pass"><br>
+<br>       <input type="submit" value="submit">
+ <br>   </form>
+ **if your sending redirect from one servlet to another ***the other servlet must have doGet() method only since doPost() doesnt work*** **
