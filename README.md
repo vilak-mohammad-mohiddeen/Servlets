@@ -32,3 +32,5 @@
 - **generally, method="get" will show the parameters in url**
 - **if method is not specified then its get method**
 - **if method="post" it wont show parameters in url**
+# public void service() will work for both get,post methods inorder to restrict we use doGet() and doPost() methods
+- these work for there specific methods
