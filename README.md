@@ -57,4 +57,15 @@ res.sendRedirect("ser2");
   - session.setAttribute("name","Moin");
 - Second servlet::
   - HttpSession session=req.getSession();
-  - session.getAttribute("name");
+  - session.getAttribute("name").toString();
+# Cookies :: used to store value in browser so, it send the valueby res Object
+- First Servlet
+  - Cookie cookie=new Cookie("name",name);<br>
+  - res.addCookie(cookie);<br>
+- Second Servlet
+  - Cookie cookie[]=req.getCookies(); i.e,it sends all cookies
+  
+  
+  **Starting cookies are sent to browser res.addCookie() after redirecting , cookies are sent along with all other data req.getCookies() will give all othe cookies
+  
+ 
