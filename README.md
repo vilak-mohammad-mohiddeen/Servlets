@@ -1,3 +1,11 @@
 # Servlets
-Hello<br>
-ki
+- tomcat
+  - webapps
+    -Application name
+      - .html files
+      - WEB-INF
+        - classes
+          - Servlets.java
+        - web.xml
+        - lib
+          - mysql-connector.jar
