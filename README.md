@@ -23,3 +23,12 @@
         
     }<br>
 }<br>
+### Servlet gets request and sends response by 2 Objects
+- HttpServletRequest req,HttpServletResponse res
+<br> public void service(HttpServletRequest req,HttpServletResponse res){
+<br> **getting parameters from client so req object will have access**
+<br>req.getParameter('uname');
+<br>}
+- **generally, method="get" will show the parameters in url**
+- **if method is not specified then its get method**
+- **if method="post" it wont show parameters in url**
