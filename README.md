@@ -1,7 +1,7 @@
 # Servlets
 - tomcat
   - webapps
-    -Application name
+    - Application name
       - .html files
       - WEB-INF
         - classes
